@@ -40,7 +40,8 @@ public class Main {
             if (toDoItem.isDone) {
                 checkbox = "[x]";
             }
-                System.out.println(checkbox + " " + i + ". " + toDoItem.text);
+                //System.out.println(checkbox + " " + i + ". " + toDoItem.text);
+                System.out.printf("%s %s. %s\n", checkbox, i, toDoItem.text);
                 i++;
 
         }
